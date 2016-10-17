@@ -1,0 +1,30 @@
+body {
+    font-family: "trebuchet ms", verdana, sans-serif;
+    font-size: 12px;
+    line-height:1.5em;
+    color: #333;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+    background: #333;
+    padding-top: 8px;
+}
+
+#header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: #fff;
+}
+
+
