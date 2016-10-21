@@ -1,11 +1,13 @@
 <?php
-require("config.php")
+require("config.php");
+$db = mysql_connect($dbhost, $dbuser, $dbpassword);
+mysql_select_db($dbdatabase, $db);
 ?>
 <!doctype html>
 <html>
 <head>
 <title><?php echo $config_blogname; ?></title>
-<link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+<!--<link rel="stylesheet" href="stylesheet.css" type="text/css"/>-->
 </head>
 <body>
 <div id="header">
