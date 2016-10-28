@@ -2,13 +2,13 @@
 
 $dbhost = "localhost";
 $dbuser = "zhang";
-$dbpassword = "19960907zql";
+$dbpassword = "zhang";
 $dbdatabase = "blogtastic";
 
 $config_blogname = "Funny old world";
 
 $config_author = "Zhang Qiaolun";
 
-$config_basedir = "http://127.0.0.1/~zhang/blogtastic/";
+$config_basedir = "http://127.0.0.1/~zhang/myWebsite/blogtastic/";
 
 ?>

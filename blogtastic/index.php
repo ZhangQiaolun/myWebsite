@@ -8,6 +8,13 @@ $sql = "SELECT entries.*, categories.cat FROM entries, categories
     LIMIT 1;";
 $result = mysql_query($sql);
 $row = mysql_fetch_assoc($result);
+?>
+
+<h2>
+    <a href="viewentry.php?id=<?php echo $row['id']; ?>"; ><?php echo $row['subject'] ?></a>
+</h2>
+
+<?php
 echo "<h2><a href='viewentry.php?id=" . $row['id']
     ."'>" . $row['subject'] . 
     "</a></h2><br />";
